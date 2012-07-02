@@ -130,7 +130,7 @@ a {
   margin: 0.5em 0;
 }
 
-.box, a {
+.modernizr-csstransitions .box, .modernizr-csstransitions a {
   -webkit-transition-property:  color, background;
   -moz-transition-property:     color, background;
   -o-transition-property:       color, background;
