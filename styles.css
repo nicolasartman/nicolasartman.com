@@ -57,7 +57,7 @@ a img {border: 0;}
 	line-height: 36px;
 }
 
-.big, h4 {
+.section-header, h4 {
   font-weight: 500;
 	font-size: 22px;
 	line-height: 30px;
@@ -100,7 +100,7 @@ a {
   text-decoration: none;
 }
 
-#header {
+#welcome-banner {
   margin: 4em 0;
   text-align: center;
   background: #373737;
@@ -117,7 +117,7 @@ a {
   border-radius:         7px;
 }
 
-.indented {
+.section-content.box {
   margin-top: 0.5em;
   margin-left: 5%;
   padding: 0.25em 1em;
@@ -126,7 +126,7 @@ a {
   background: #111;
 }
 
-.indented p {
+.section-content p {
   margin: 0.5em 0;
 }
 
@@ -157,7 +157,7 @@ a {
   color: #09f;
 }
 
-.section:hover .indented {
+.section:hover .section-content {
   background: #171717;
 }
 
@@ -175,7 +175,7 @@ a {
   color: #EEE;
   background: #333;
 }
-.modernizr-touch .section .indented {
+.modernizr-touch .section .section-content {
   background: #171717;
 } 
 
@@ -202,7 +202,7 @@ a {
 	  margin: 0 1%;
 	}
 	
-	.indented {
+	.section-content.box {
   	margin-left: 0%;	  
 	}
 	
@@ -218,7 +218,7 @@ a {
   }
 
   
-  .big, h3 {
+  .section-header, h3 {
     font-weight: 500;
   	font-size: 18px;
   	line-height: 27px;
