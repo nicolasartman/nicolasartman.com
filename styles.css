@@ -43,12 +43,13 @@ a img {border: 0;}
 .huge, h1 {
 	font-size: 68px;
 	line-height: 72px;
-	letter-spacing: -1px;
+  letter-spacing: -1px;
 }
 
 .large, h2 {
 	font-size: 42px;
 	line-height: 48px;
+  letter-spacing: 0.04em;
 }
 
 .bigger, h3 {
